@@ -27,6 +27,9 @@ export default class NavBar extends Component {
                   <NavLink className='nav-link' activeClassName="active" to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
+                  <NavLink className="nav-link" activeClassName="active" to="news">News</NavLink>
+                </li>
+                <li className="nav-item">
                   <NavLink className="nav-link" activeClassName="active" to="tech">Technology</NavLink>
                 </li>
               </ul>
