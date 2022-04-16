@@ -27,10 +27,22 @@ export default class NavBar extends Component {
                   <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="news">News</NavLink>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="science">Science</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="tech">Technology</NavLink>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="business">Business</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="technology">Technology</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="entertainment">Entertainment</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="health">Health</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="sports">Sports</NavLink>
                 </li>
               </ul>
               <form className="d-flex">
