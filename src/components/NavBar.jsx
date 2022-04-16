@@ -24,13 +24,13 @@ export default class NavBar extends Component {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <NavLink className='nav-link' activeClassName="active" to="/">Home</NavLink>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" activeClassName="active" to="news">News</NavLink>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="news">News</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" activeClassName="active" to="tech">Technology</NavLink>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": 'nav-link'} to="tech">Technology</NavLink>
                 </li>
               </ul>
               <form className="d-flex">
